@@ -1,0 +1,137 @@
+
+  <head>
+    <!doctype html>
+    <html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1{
+        font-family: 'Segoe UI';
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+ 
+  <body>
+    <script> src = "script.js"</script>
+    <h1 style="color: red; border: solid 2px;border-color: black;border-radius: 10px; background-color: aquamarine;font-family: Roboto; size: 302px;">Welcome to My Website</h1>
+    <details>
+      <summary>Click to expand</summary>
+      <p>
+        This is the content that will be shown when the details element is
+        expanded.
+      </p>
+    </details>
+    <b>HI</b>
+    <i>HI</i>
+    <h1> dandanaka</h1>
+    <p>This is a paragraph.</p>
+    <div style ="border: solid 10px;border-color: black;border-radius: 10px; background-color: lightgray;font-family: Roboto; size: 302px;" name="divya">
+      <h2>This is a heading inside a div</h2>
+      <p>This is a paragraph inside a div.</p>
+      <div>
+        <p>This is a paragraph inside a nested div.</p>
+      </div>
+    </div>
+    <ul type="R">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+ 
+  <dl>
+    <dt>Term 1</dt>
+    <dd>Description for Term 1</dd>
+    <dt>Term 2</dt>
+    <dd>Description for Term 2</dd>
+  </dl>
+  <table border="1">
+    <tr>
+      <th>Student Id</th>
+      <th>Student Name</th>
+      <th>Gender</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Krishna</td>
+      <td>Male</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Vijay</td>
+      <td>Male</td>
+      <td>45</td>
+    </tr>
+      <td>03</td>
+      <td>Radha</td>
+      <td>Female</td>
+      <td>20</td>
+    </tr>
+  </table>
+  <br>
+  <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" width="300" height="300">
+  <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl" width="300" height="300">
+  <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Chania" width="300" height="300">
+  <br>
+  <form action="https://yourwish.com">
+  <label for="username">Username:</label>
+  <input type="text">
+  <br>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password">
+  <br>
+  <br>
+  <label for="gender">Gender :</label>
+  <input type = "radio" name = "gender" value = "male"> Male
+  <input type = "radio" name = "gender" value = "female"> Female
+  <input type = "radio" name = "gender" value = "others"> Others
+  <br>
+  <br>
+  <label for="Marital Status">Marital Status:</label>
+  <input type = "radio" name = "Marital Status" value = "married"> Married
+  <input type = "radio" name = "Marital Status" value = "single"> Single
+  <br>
+  <br>
+  <label for="vehicle">Select your vehicle:</label><br><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <br>
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <option disabled selected>None</option>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <label for="states">Choose a state:</label>
+  <select name="states" id="states">
+    <option disabled selected>None</option>
+    <option value="tamilnadu">Tamil Nadu</option>
+    <option value="kerala">Kerala</option>
+    <option value="karnataka">Karnataka</option>
+    <option value="telangana">Telangana</option>
+  </select>
+  <br><br>
+  <label for="file">Select a file:</label>
+  <input type="file" id="file" name="file">
+  <br><br>
+  <label for="color">Select a Colour:</label>
+  <input type="color" id="color" name="color">
+  <br><br>
+  <label for="date">Select a date:</label>
+  <input type="date" id="date" name="date">
+  <br><br>
+  <button onclick="buttonclicked()">Submit Form</button>
+  </form>
+  </body>
+</html>

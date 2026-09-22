@@ -1,0 +1,31 @@
+# Every search acts as http request and gives a https response when we click enter which runs a function.
+# Web browser executes a program which access and retrieves data from the web server.
+# Each Query changes the path of the url from something.com to something.com/subsection (change in domain name).
+
+# https:// = scheme or protocol, www. = subdomain, example = domain, .com = top level domain, :443 = port number, blog/article = path, ? = query seperator string, docid=720&hl=en = query string/parameter, #dayone = Fragment
+
+# https://www.exapmle.com:443/blog/article?docid=720&hl=en#dayone
+
+# https protocol are set of instructions every browser and web applications must obey in order to work in every environment.
+
+# Port ID = Every application runs in a different port number causing no applications to interlap during multitasking sessions with other users.
+
+# Websites with own domain name doesnt need port number since the domain is unique to one user.
+
+# Path changes the content of the slide without changing the domain.
+
+# WEB APPLICATION sends the entire webpage back for every with different data as response for every http request.
+
+# WEB API gives only the different data needed.
+
+# The browser sends the https request/query to the backend server, the request is processed with the backend code that finds the necessary data withtin the server database and sends back the https response as a entire webpage with new data. 
+
+# Explore edupoly.in
+
+# cellspacing ="" attribute makes border between table elements big or small
+
+# Cell Padding space between element and border on inside changes.
+
+# HTML, XML, etc are declarative style coding which doesnt need much codeing to create a button for example. C++, python, etc use imperative coding which needs basic logic for everything.
+
+# grouping radio button into one group is used to select only one of the buttons.

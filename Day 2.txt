@@ -1,0 +1,15 @@
+* <h1 style = "color:blue">Welcome to My Website</h1>
+style = attribute 
+color = property
+blue = value
+1 em = 16 px
+
+know what is inheritance and cascading
+classes to change multiple styles
+
+~ performs collection of all siblings.
++ to select next immediate sibling.
+space between elements for descendance
+> only children.
+
+block elements share a merged margin which accepts the biggest margin
