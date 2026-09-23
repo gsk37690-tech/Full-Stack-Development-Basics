@@ -1,0 +1,16 @@
+styling in same line of code in html is called inline styling.
+styling through the head coloumn is internal styling.
+styling through a seperate css file is external styling.
+
+border radius works in clockwise from topleft
+
+border radius is half of height and width if they are the same.
+
+overflow property trims the content which goes out of border.
+
+inline block elements margin are sum of two elements.
+while normal black share a common margin.
+
+A divison can be set to one layer above the other elements through position absolute.
+
+position: sticky is used to prevent the element from going away from the natural flow of the element

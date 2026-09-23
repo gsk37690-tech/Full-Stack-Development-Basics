@@ -3,6 +3,7 @@ style = attribute
 color = property
 blue = value
 1 em = 16 px
+vw = viewport width.
 
 know what is inheritance and cascading
 classes to change multiple styles
