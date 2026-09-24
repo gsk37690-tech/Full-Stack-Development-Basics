@@ -1,0 +1,10 @@
+assignment operator assigns values right through left
+a=b=c means b=c, a=b
+< or > gives true or false not 0 or 1
+=== checks the data type
+
+during evaluating condition statements 
+if False is found while using AND operator, It will give false result immediately and stop the 
+evaluation which is called SHORT CIRCUIT evaluation
+
+the ? if condition can even find out if number is neagative or positive even if it is a string.

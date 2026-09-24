@@ -6,29 +6,45 @@
     <title>Document</title>
     <style>
       .d1 {
-        height: 400px;
+        height: 50px;
         margin: 0px;
-        width: 600px;
+        width: 100px;
         border: 5px solid black;
         border-radius: 20px;
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: blue;
         position: relative;
       }
-      #d2 {
-        height: 100px;
-        border-radius: 100px 100px;
-        width: 100px;
-        border: 10px solid black;
-        display: flex;
+      .alert-dot {
+        height: 20px;
+        width: 20px;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        right: -10px;
+        top: -10px;
         background-color: red;
-        transform: translate(-50%, -50%);
       }
     </style>
   </head>
   <body>
     <div class="d1">
-      <div id="d2"></div>
+      <p
+        style="
+          margin: 0;
+          color: white;
+          font-weight: bold;
+          font-family:
+            &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;,
+            &quot;Lucida Grande&quot;, &quot;Lucida Sans&quot;, Arial,
+            sans-serif;
+        "
+      >
+        ALERTS
+      </p>
+      <div class="alert-dot"></div>
     </div>
   </body>
 </html>
